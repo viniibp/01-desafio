@@ -1,0 +1,16 @@
+{
+  "name": "01-desafio",
+  "module": "index.ts",
+  "dependencies": {
+    "csv-parse": "^5.5.6",
+    "typescript": "^5.4.5"
+  },
+  "scripts": {
+    "dev": "npx tsx --watch src/server.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "tsx": "^4.10.3"
+  },
+  "type": "module"
+}

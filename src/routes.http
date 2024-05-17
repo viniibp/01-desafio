@@ -1,0 +1,28 @@
+GET http://localhost:3333/tasks?search=
+
+###
+
+POST http://localhost:3333/tasks
+Content-Type: application/json
+
+{
+    "title": "teste cria",
+    "description": "macacau"
+}
+
+###
+
+DELETE http://localhost:3333/tasks/25a062a2-747e-4a2b-82dd-5a34bfacd883
+
+###
+
+PUT http://localhost:3333/tasks/f8598fd2-6870-460f-8f20-9477ff92ee1d
+Content-Type: application/json
+
+{
+    "description": "titulozinho sofasn"
+}
+
+###
+
+PATCH http://localhost:3333/tasks/f8598fd2-6870-460f-8f20-9477ff92ee1d/complete
